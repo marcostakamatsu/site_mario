@@ -1,4 +1,4 @@
-#background {
+#background_vid {
     position: fixed;
     inset: 0;
     width: 100%;
@@ -6,14 +6,14 @@
     z-index: -1;
 }
 
-#background video {
+#background_vid video {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-#background::after {
-    content: ;
+#background_vid::after {
+    content: '';
     width: inherit;
     height: inherit;
     position: fixed;

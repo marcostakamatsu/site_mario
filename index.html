@@ -26,7 +26,7 @@
 
 <body>
     <!-- video de fundo -->
-    <div id="background">
+    <div id="background_vid">
         <video loop autoplay muted>
             <source src="./images/background-video.mp4" type="video/mp4">
         </video>
@@ -77,11 +77,6 @@
                     </a>
                 </div>
             </div>
-            <button type="button" id="button" onclick="handleClick()" class="button__mobile">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
         </header>
         <main>
             <div class="main__info">
@@ -107,7 +102,9 @@
                 src="./images/mario-and-luigi.png" alt="Imagem dos personagem mario e luigi" />
         </main>
     </div>
+
     <!-- Script -->
+    <script src="./index.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
